@@ -2,7 +2,7 @@
 
 An internal operational dashboard for the froots Customer Excellence (CE) team. One place for every advisor to see which clients need attention today, understand a client's full picture in seconds, react to market events intelligently, and have confident data-backed conversations about the froots pension product.
 
-**Live demo:** https://froots.streamlit.app
+**Live demo:** https://eufintech.streamlit.app
 
 ---
 
