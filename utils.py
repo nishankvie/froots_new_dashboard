@@ -8,9 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL") or st.secrets["DATABASE_URL"]
-url = DATABASE_URL
 @st.cache_resource
 def get_engine():
+    url = DATABASE_URL
+
     if url.startswith("postgresql://"):
 
         url = url.replace("postgresql://", "postgresql+psycopg2://", 1)
